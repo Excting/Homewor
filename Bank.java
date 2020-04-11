@@ -31,7 +31,7 @@ public class Bank {
             }
         }
     }
-
+//欢迎界面
     public static void operate() {
         Scanner scanner1 = new Scanner(System.in);
         while (true) {
@@ -69,7 +69,7 @@ public class Bank {
     }
 }
 
-
+// 用户信息
 class Account {
     String account;
     String passwd;
@@ -115,7 +115,7 @@ class Account {
     }
 
 }
-
+//注册过程
 class BankOperate {
     public static void regist(String account, String passwd, String name) {
         Account account1 = new Account(account, passwd, name);
@@ -156,7 +156,7 @@ class BankOperate {
     }
 }
 
-
+//存储用户信息
 class BankTool {
     public static Account[] account=new Account[100];
     public static int index=0;
